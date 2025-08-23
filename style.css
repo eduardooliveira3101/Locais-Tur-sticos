@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#page {
+  width: 1120px;
+  margin: 88px auto;
+  border: 1px solid;
+}
+
+.img-introduction {
+  border-radius: 28px;
+}
+
+img {
+  width: 1120px;
+}
+
+.card-img {
+  height: 350px;
+  object-fit: cover;
+}
+
+span {
+  color: #e1624f;
+}
