@@ -29,4 +29,24 @@ img {
 
 span {
   color: #e1624f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.introduction span {
+  margin-bottom: 4px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+legend {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 40px;
 }
