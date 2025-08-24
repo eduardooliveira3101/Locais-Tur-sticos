@@ -16,14 +16,11 @@ p {
 #page {
   width: 1120px;
   margin: 88px auto;
-  border: 1px solid;
 }
 
-.img-introduction {
+.img-introduction,
+.card-img {
   border-radius: 28px;
-}
-
-img {
   width: 1120px;
 }
 
@@ -31,6 +28,7 @@ img {
   height: 350px;
   object-fit: cover;
   border-radius: 28px;
+  width: 1120px;
 }
 
 .card + .card {
@@ -59,11 +57,12 @@ legend {
   font-weight: 400;
   text-align: center;
   line-height: 150%;
-  margin-bottom: 40px;
+  margin: 24px 0px 40px 0px;
+  color: #333333;
 }
 
 #content-list {
-  margin-top: 64px;
+  margin: 64px 0px 40px 0px;
 }
 
 #content-list span {
@@ -83,6 +82,7 @@ legend {
 h3 {
   font-size: 28px;
   font-weight: bold;
+  margin-bottom: 4px;
 }
 
 .title-list {
@@ -127,4 +127,24 @@ ul li p {
 
 .budget {
   color: #e95e10;
+}
+
+.before-the-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.footer-img {
+  vertical-align: middle;
+}
+
+hr {
+  color: #d9d9d9;
+  opacity: 10%;
+  font-weight: 500;
 }
