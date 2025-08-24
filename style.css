@@ -50,3 +50,34 @@ legend {
   line-height: 150%;
   margin-bottom: 40px;
 }
+
+#content-list {
+  margin-top: 64px;
+}
+
+#content-list span {
+  margin-bottom: 2px;
+}
+
+#content-list h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 64px;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.title-list {
+  margin-left: 45px;
+}
+
+ol li::marker {
+  font-size: 28px;
+  font-weight: bold;
+}
